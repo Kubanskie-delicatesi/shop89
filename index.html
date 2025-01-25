@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/adaptive.css">
+    <link rel="stylesheet" href="tools/AOS/aos.css">
+    <link rel="icon" href="images/main/logo/1024x1024.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Kaisei+Decol&family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,200;1,200&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="app.js"></script>
+    <title>Document</title>
+    
+</head>
+<body style="margin: 0; padding: 0;">
+    <div class="wrap-header">
+        <header id="header">
+                <div class="header-logo">
+                    <img src="images/main/logo/logoBLACK.svg" alt="">
+                    <p class="enabled-name">Кубансккие Деликатесы</p>
+                </div>
+                <div class="header-name">
+                    <p>Кубансккие Деликатесы</p>
+                </div>
+                <div class="header-nav enable">
+                    <a href="#">Товары</a>
+                    <a href="#benefits">Преимущества</a>
+                    <a href="#footer">Контакты</a>
+                </div>
+                <div class="haeder-nav-special disabled">
+                    <a href="javascript:PopUpShow()">
+                        <i class="ri-menu-fill" style="font-size: 40px;"></i>
+                    </a>
+                    <div class="b-popup" id="popup1">
+                        <div class="b-popup-content">
+                            <div class="pop-up-close">
+                                <a href="javascript:PopUpHide()">
+                                    <i class="ri-close-line" style="font-size: 40px;"></i>
+                                </a>
+                            </div>
+                            <a href="#">Товары</a>
+                    <a href="#benefits">Преимущества</a>
+                    <a href="#footer">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+        </header>
+    </div>
+    <div class="carousel">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide">
+                <img src="images/main/1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/swipe_slide/swipe 2.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/swipe_slide/swipe 3.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/swipe_slide/swipe 4.jpg">
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    .
+    <div class="wrap-benefits"data-aos="zoom-in" id="benefits">
+        <div class="benefits-container">
+            <div class="benefits-head-info">
+                <div class="">
+                    <h1>Преимущества магазина 'Кубанские <br> Деликатесы'</h1>
+                </div>
+                <div class="">
+                    <p><span style="color: rgb(68, 68, 68);">Открой для себя качество и свежесть нашей продукции</span></p>
+                </div>
+            </div>
+            <div class="benefits-bottom-info">
+                <div class="benefits-card" data-aos="zoom-in-right">
+                    <div class="benefits-card-head">
+                        <div class="benefits-circle"><i class="ri-check-line marker" style="color: #1db92a;"></i></div>
+                    </div>
+                    <div class="benefits-card-info">
+                        <div class="benefits-card-text">
+                            <h1 style="font-size: 25px;">Всегда свежие продукты</h1> 
+                            <p>Мы гарантируем свежесть и качество каждого продукта в нашем ассортименте.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-card" data-aos="zoom-out-up">
+                    <div class="benefits-card-head">
+                        <div class="benefits-circle"><i class="ri-fire-line marker" style="color: #d88811;"></i></div>
+                    </div>
+                    <div class="benefits-card-info">
+                        <div class="benefits-card-text">
+                            <h1 style="font-size: 25px;">Широкий ассортимент</h1> 
+                            <p>От мяса и крабов до пива и товаров для дома — всё в одном месте.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-card" data-aos="zoom-in-left">
+                    <div class="benefits-card-head">
+                        <div class="benefits-circle"><i class="ri-star-line marker" style="color: #e9d522;"></i></div>
+                    </div>
+                    <div class="benefits-card-info">
+                        <div class="benefits-card-text">
+                            <h1 style="font-size: 25px;">Качественные деликатесы</h1> 
+                            <p>Мы предлагаем только отборные и сертифицированные продукты.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-navigation">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A56ee6273f820cced690bae9710e87c64cd57325e1149f249bf23b77d0d926b74&amp;source=constructor" width="100%" height="600" frameborder="1" class="functional-vidget"></iframe>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+          <div class="footer-item">
+            <p style="font-size: 20px;">Кубанские Деликатесы</p>
+          </div>
+          <div class="footer-item enabled">
+            <a href="">Товары</a>
+            <a href="">Преимущества</a>
+            <a href="">Отзывы</a>
+          </div>
+          <div class="footer-item">
+            <a href="tel:+7 992 403 74 44">+ 7 992 403 74 44</a>
+            <a href="">kubanskiedelicatesi@gmail.com</a>
+          </div>
+          <div class="footer-item social">
+            <a href="https://vk.com/delikates89" target="_blank"><i class="ri-vk-line"></i></a>
+            <a href="https://chat.whatsapp.com/IV9q0RwksBU8gm4tmLuPao" target="_blank"><i class="ri-whatsapp-line"></i></a>
+            <a href="https://t.me/kubaskie_delicatesi" target="_blank"><i class="ri-telegram-2-line"></i></a>
+          </div>
+        </div>
+    </footer>
+    <script src="tools/AOS/aos.js"></script>
+    <script src="tools/AOS/script.js"></script>
+    <script src="swiper.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+@media (max-width: 1215px) {
+    .benefits-bottom-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .benefits-card{
+        width: 400px;
+    }
+}
+@media (max-width: 447px) {
+    .benefits-card{
+        width: 300px;
+    }
+}
+@media (max-width: 1212px) {
+    .swiper {
+        width: 1000px;
+        height: 500px;
+    }
+    .catalog-container{
+        width: 800px;
+    }     
+}
+@media (max-width: 1020px) {
+    .swiper {
+        width: 750px;
+        height: 400px;
+    }
+    .catalog-container{
+        width: 600px;
+    }    
+}
+@media (max-width: 776px) {
+    .swiper {
+        width: 500px;
+        height: 300px;
+    }
+    .catalog-container{
+        width: 400px;
+    }     
+}
+@media (max-width: 520px) {
+    .swiper {
+        width: 350px;
+        height: 200px;
+    }
+    .catalog-container{
+        margin: 20px;
+    }
+}
+@media (max-width: 423px){
+    .catalog-container{
+        width: 250px;
+    }
+}
+@media (max-width: 360px) {
+    .swiper {
+        width: 300px;
+        height: 150px;
+    }
+}
+@media (max-width: 315px) {
+    .swiper {
+        width: 250px;
+        height: 150px;
+    }
+    .swiper-pagination{
+        opacity: 50%;
+    }
+}
+@media (max-width: 822px) {
+    .enabled{
+        display: none;
+    }
+    .functional-vidget{
+        height: 400px;
+    }
+}
+@media (max-width: 668px) {
+    .footer-container:nth-child(odd){
+        flex-direction: column-reverse;
+        padding: 0 0 70px 0;
+    }
+    .footer-item {
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 956px) {
+    header{
+        justify-content: space-evenly;
+    }
+    .header-name{
+        display: flex;
+    }
+    .enabled-name{
+        display: none;
+    }
+    .enable {
+        display: none;
+    }
+    .disabled{
+        display: flex;
+    }
+}
+@media (max-width: 376px) {
+    .header-name p{
+        font-size: 10px;
+    }
+}
