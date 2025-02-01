@@ -21,6 +21,9 @@
     }
     .catalog-container{
         width: 800px;
+    }
+    .carousel {
+        height: 600px;
     }     
 }
 @media (max-width: 1020px) {
@@ -30,7 +33,10 @@
     }
     .catalog-container{
         width: 600px;
-    }    
+    }
+    .carousel {
+        height: 500px;
+    }     
 }
 @media (max-width: 776px) {
     .swiper {
